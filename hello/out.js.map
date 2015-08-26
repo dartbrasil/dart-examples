@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "file": "out.js",
+  "sourceRoot": "",
+  "sources": ["../../dart-sdk/lib/_internal/compiler/js_lib/js_primitives.dart","hello.dart","../../dart-sdk/lib/_internal/compiler/js_lib/internal_patch.dart"],
+  "names": ["printString","main","printToConsole"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;iBAoBAA;;;QAIIA;;;;QAOAA;;;QAKAA;;;QAMAA;;;KAOJA,A;;;UCjDAC;MCiBEC;KDfFD,A"
+}

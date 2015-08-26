@@ -1,6 +1,6 @@
-import 'dart:JSON';
-
+import 'dart:convert';
 
 main() {
-	var data = JSON.parse('{}');
+	var data = JSON.decode('{"language":"dart"}');
+	print(data);
 }

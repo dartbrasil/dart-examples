@@ -1,10 +1,8 @@
-import 'dart:io';
-
-main() {
-    print(fib(int.parse(Platform.executableArguments[0]) - 1));
+int fibonacci(int n) {
+  return n < 2 ? n : (fibonacci(n - 1) + fibonacci(n - 2));
 }
 
-int fib (int n) {
-   if (n < 2) return n;
-   return fib(n - 1) + fib(n - 2);
+void main(List<String> args) {
+  int i = int.parse(args[0]);
+  print('fibonacci($i) = ${fibonacci(i)}');
 }

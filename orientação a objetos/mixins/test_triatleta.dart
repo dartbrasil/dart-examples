@@ -10,12 +10,17 @@ part 'Triatleta.dart';
 
 main(){
     var tri = new Triatleta();
-    var bike = new Bicicleta("Caloi", "10");
+    var ciclista = new Ciclista();
+    var bike1 = new Bicicleta("Caloi", "10");
+    var bike2 = new Bicicleta("Monark", "Barra Forte");
+  
     tri..nome = "Triatleta";
-    tri..bicicleta = bike;
-    // tri..Animal..tipo = "Cachorro";
-    // tri.animal.raca = "Doberman";
+    tri..bicicleta = bike1;
+    ciclista..nome = "Pedalante";
+    ciclista..bicicleta = bike2;
+  
     print(tri.pedalar());
     print(tri.correr());
     print(tri.nadar());
+    print(ciclista.pedalar());
 }

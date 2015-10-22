@@ -1,8 +1,0 @@
-name: mvc_app
-version: 0.0.1
-author: Rodrigo Muniz
-description: A sample MVC application for DevFest Sul 2015
-dependencies:
-  browser: any
-dev_dependencies:
-  http_server: any
